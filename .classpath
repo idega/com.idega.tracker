@@ -1,42 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <classpath>
-  <classpathentry excluding="" kind="src" path="src/java">
-  </classpathentry>
-  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
-  </classpathentry>
-  <classpathentry kind="src" path="/com.idega.core">
-  </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/bundles/jars/com.idega.workspace-3.1.0.jar">
-  </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/jdom/jars/jdom-1.0.jar">
-  </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/jai/jars/jai-1.0.jar">
-  </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/jai/jars/jai_codec-1.0.jar">
-  </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/javamail/jars/javamail-1.3.2.jar">
-  </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/jaf/jars/jaf-1.0.2.jar">
-  </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/servlets.com/jars/cos-05Nov2002.jar">
-  </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/itextpdf/jars/itext-paulo-139.jar">
-  </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/servletapi/jars/servletapi-2.4.jar">
-  </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/myfaces/jars/myfaces-jsf-api-1.1.3.jar">
-  </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/myfaces/jars/myfaces-tomahawk-1.1.3.jar">
-  </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/jspapi/jars/jsp-api-2.0.jar">
-  </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/ejb/jars/ejb-2.0.jar">
-  </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/jta/jars/jta-spec1_0_1.jar">
-  </classpathentry>
-  <classpathentry kind="src" path="/com.idega.block.web2.0">
-  </classpathentry>
-  <classpathentry kind="output" path="target/classes">
-  </classpathentry>
+  <classpathentry kind="src" path="properties" excluding="**/*.java"/>
+  <classpathentry kind="src" path="resources" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/javax/activation/activation/1.1/activation-1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jmaki/ajax-wrapper-comp/0.4b1/ajax-wrapper-comp-0.4b1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/idega/block/platform/com.idega.block.login/4.0.2-SNAPSHOT/com.idega.block.login-4.0.2-SNAPSHOT.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/idega/block/platform/com.idega.block.web2.0/4.0.2-SNAPSHOT/com.idega.block.web2.0-4.0.2-SNAPSHOT.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/idega/block/platform/com.idega.core/4.0.2-SNAPSHOT/com.idega.core-4.0.2-SNAPSHOT.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/idega/block/platform/com.idega.faces/4.0.2-SNAPSHOT/com.idega.faces-4.0.2-SNAPSHOT.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/idega/block/platform/com.idega.webface/4.0.2-SNAPSHOT/com.idega.webface-4.0.2-SNAPSHOT.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/idega/block/platform/com.idega.workspace/4.0.2-SNAPSHOT/com.idega.workspace-4.0.2-SNAPSHOT.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.3/commons-codec-1.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-collections/commons-collections/3.2/commons-collections-3.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-digester/commons-digester/1.7/commons-digester-1.7.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-el/commons-el/1.0/commons-el-1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-fileupload/commons-fileupload/1.2/commons-fileupload-1.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-jxpath/commons-jxpath/1.2-patched/commons-jxpath-1.2-patched.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.1/commons-lang-2.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1/commons-logging-1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/servlets/com/cos/05Nov2002/cos-05Nov2002.jar"/>
+  <classpathentry kind="var" path="M2_REPO/net/sf/ehcache/ehcache/1.2/ehcache-1.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/net/sf/ehcache/ehcache-constructs/0.6/ehcache-constructs-0.6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/ejb/ejb/2.0/ejb-2.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/hsqldb/hsqldb/1.8.0.2/hsqldb-1.8.0.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/icu4j/icu4j/3.0L1/icu4j-3.0L1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/informix_jdbc/informix_jdbc/9.0/informix_jdbc-9.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jdom/jdom/1.0/jdom-1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/sun/facelets/jsf-facelets/1.1.13/jsf-facelets-1.1.13.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/servlet/jstl/1.1.0/jstl-1.1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/transaction/jta/1.0.1B/jta-1.0.1B.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jug/jug/1.1.2/jug-1.1.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/4.4/junit-4.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.12/log4j-1.2.12.jar"/>
+  <classpathentry kind="var" path="M2_REPO/logkit/logkit/1.0.1/logkit-1.0.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/mail/mail/1.3.3/mail-1.3.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/myfaces/core/myfaces-api/1.1.5/myfaces-api-1.1.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/myfaces/core/myfaces-impl/1.1.5/myfaces-impl-1.1.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/idega/block/platform/org.apache.myfaces/4.0.2-SNAPSHOT/org.apache.myfaces-4.0.2-SNAPSHOT.jar"/>
+  <classpathentry kind="var" path="M2_REPO/oro/oro/2.0.8/oro-2.0.8.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/poi/poi/2.5-final-20040428/poi-2.5-final-20040428.jar"/>
+  <classpathentry kind="var" path="M2_REPO/portlet-api/portlet-api/1.0/portlet-api-1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring/2.5.4/spring-2.5.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-test/2.5.4/spring-test-2.5.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/myfaces/tomahawk/tomahawk/1.1.5/tomahawk-1.1.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/xalan/xalan/2.7.1/xalan-2.7.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/xalan/xalan-serializer/2.7.1/xalan-serializer-2.7.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar"/>
 </classpath>

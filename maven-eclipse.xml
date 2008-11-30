@@ -1,0 +1,11 @@
+<project default="copy-resources">
+  <target name="init"/>
+  <target name="copy-resources" depends="init">
+    <copy todir="target/classes/properties" filtering="false">
+      <fileset dir="properties"/>
+    </copy>
+    <copy todir="target/classes/resources" filtering="false">
+      <fileset dir="resources"/>
+    </copy>
+  </target>
+</project>
